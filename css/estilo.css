@@ -25,18 +25,6 @@ header {
         width: 40px;
         margin: 5px; }
 
-footer {
-  padding: 20px 0;
-  background-color: black;
-  color: white; }
-  footer .btnWhats {
-    position: fixed;
-    right: 0;
-    bottom: 60px; }
-    footer .btnWhats .logosRedes {
-      width: 40px;
-      margin: 5px; }
-
 body {
   margin: 0;
   padding: 0;
@@ -51,3 +39,15 @@ body {
       color: black;
       text-align: center;
       font-weight: bold; }
+
+footer {
+  padding: 20px 0;
+  background-color: black;
+  color: white; }
+  footer .btnWhats {
+    position: fixed;
+    right: 0;
+    bottom: 60px; }
+    footer .btnWhats .logosRedes {
+      width: 40px;
+      margin: 5px; }
