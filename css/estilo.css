@@ -35,7 +35,7 @@ body {
   body main {
     background-color: #444444;
     text-align: center; }
-    body main h2 {
+    body main h2, body main .parrafosExtend {
       color: black;
       text-align: center;
       font-weight: bold; }
@@ -61,3 +61,17 @@ footer {
 
 .gradientes {
   background-image: linear-gradient to right #870000, #190A05; }
+
+/*EXTEND*/
+h2, .parrafosExtend {
+  color: black;
+  text-align: center;
+  font-weight: bold; }
+
+.parrafosExtend {
+  font-size: 40px; }
+
+/*MIXIN*/
+.listasMixin {
+  font-size: 50px;
+  text-align: left; }
