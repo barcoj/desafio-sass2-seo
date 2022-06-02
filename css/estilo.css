@@ -51,3 +51,13 @@ footer {
     footer .btnWhats .logosRedes {
       width: 40px;
       margin: 5px; }
+
+/*MAP*/
+.oscuro {
+  background-image: linear-gradient to right #870000, #190A05; }
+
+.claro {
+  background-image: linear-gradient to right #f7ff00, #db36a4; }
+
+.gradientes {
+  background-image: linear-gradient to right #870000, #190A05; }
