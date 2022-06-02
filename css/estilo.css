@@ -3,6 +3,40 @@
   margin: 0%;
   padding: 0%; }
 
+header {
+  border-bottom: 1px solid; }
+  header .navbar-brand .logoPrincipal {
+    width: 120px;
+    transition: all 0.3s; }
+    header .navbar-brand .logoPrincipal:hover {
+      width: 130px; }
+  header li {
+    list-style-type: none;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: larger;
+    display: inline-block; }
+    header li a {
+      text-decoration: none;
+      font-weight: bold; }
+      header li a:hover {
+        background-color: red; }
+      header li a .logosRedes {
+        width: 40px;
+        margin: 5px; }
+
+footer {
+  padding: 20px 0;
+  background-color: black;
+  color: white; }
+  footer .btnWhats {
+    position: fixed;
+    right: 0;
+    bottom: 60px; }
+    footer .btnWhats .logosRedes {
+      width: 40px;
+      margin: 5px; }
+
 body {
   margin: 0;
   padding: 0;
@@ -10,27 +44,6 @@ body {
   width: 100%;
   overflow-x: hidden;
   font-family: "Open Sans", sans-serif; }
-  body header {
-    border-bottom: 1px solid; }
-    body header .navbar-brand .logoPrincipal {
-      width: 120px;
-      transition: all 0.3s; }
-      body header .navbar-brand .logoPrincipal:hover {
-        width: 130px; }
-    body header li {
-      list-style-type: none;
-      color: blueviolet;
-      font-weight: bold;
-      font-size: larger;
-      display: inline-block; }
-      body header li a {
-        text-decoration: none;
-        font-weight: bold; }
-        body header li a:hover {
-          background-color: red; }
-        body header li a .logosRedes {
-          width: 40px;
-          margin: 5px; }
   body main {
     background-color: #444444;
     text-align: center; }
@@ -38,14 +51,3 @@ body {
       color: black;
       text-align: center;
       font-weight: bold; }
-  body footer {
-    padding: 20px 0;
-    background-color: black;
-    color: white; }
-    body footer .btnWhats {
-      position: fixed;
-      right: 0;
-      bottom: 60px; }
-      body footer .btnWhats .logosRedes {
-        width: 40px;
-        margin: 5px; }
